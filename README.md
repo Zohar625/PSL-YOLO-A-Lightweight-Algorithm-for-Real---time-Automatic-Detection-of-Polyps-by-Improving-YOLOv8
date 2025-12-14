@@ -3,7 +3,7 @@
 
 ## Architecture of our model
 
-![image-20251208163005575](images/Model architecture.png)
+![images/Model architecture.png](https://github.com/Zohar625/PSL-YOLO-A-Lightweight-Algorithm-for-Real---time-Automatic-Detection-of-Polyps-by-Improving-YOLOv8/blob/main/images/Model%20architecture.png?raw=true)
 
 
 
@@ -35,5 +35,6 @@
 ![image-20251208173357538](images/SlimNeck moudle.png)
 
 ​		The details of the feature pyramid are shown in the figure above. In addition to the parameters mentioned in the previous two sections, there are also *bias*, *g*, and *e* that have not been explained. The *bias* parameter indicates whether a bias term is included. A convolution with a *g* parameter represents a grouped convolution, where *g* specifies the number of connections between input and output channels. *e* denotes the expansion ratio of the intermediate channels, which specifically affects the output channel number of the first GSConvns in the GSBottleneckns module. The remaining details are consistent with those in the previous two sections.
+
 
 
