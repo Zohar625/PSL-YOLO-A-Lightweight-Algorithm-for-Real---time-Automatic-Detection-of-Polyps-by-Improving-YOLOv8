@@ -35,6 +35,9 @@
 
 ​		The details of the feature pyramid are shown in the figure above. In addition to the parameters mentioned in the previous two sections, there are also *bias*, *g*, and *e* that have not been explained. The *bias* parameter indicates whether a bias term is included. A convolution with a *g* parameter represents a grouped convolution, where *g* specifies the number of connections between input and output channels. *e* denotes the expansion ratio of the intermediate channels, which specifically affects the output channel number of the first GSConvns in the GSBottleneckns module. The remaining details are consistent with those in the previous two sections.
 
+# DataSet
+This dataset is an endoscopic polyp dataset, in which polyps are classified into two types. In the labels, samples with an ID of 0 correspond to hyperplastic polyps, while samples with an ID of 1 correspond to adenomatous polyps.
+
 
 
 
